@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+
+
+<body>
+  <div class="navbar">
+    <div class="container">
+      <h1 class="logo">Ghufran</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about"><button>About</button></a></li>
+          <li><a href="#skills"><button>Skills</button></a></li>
+          <li><a href="#projects"><button>Projects</button></a></li>
+          <li><a href="#contact"><button>Contact</button></a></li>
+          <!-- 
+          <li><a href="#projects"><button>Projects</button></a></li>
+           -->
+        </ul>
+      </nav>
+      <!-- Hamburger Menu Button -->
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+
+
+  <section id="about" class="section1">
+    <div class="me">
+      <div class="image"><img src="Screenshot 2024-12-19 113651.png" alt="png"></div>
+      <div class="my-info">
+        <h2>Full-Stack Web Developer</h2>
+        <p>Full-stack development, deals with the front-end and back-end of websites and applications. As a full-stack
+          developer skilled in React and Node.js, you'll create dynamic, responsive, and efficient web applications that
+          deliver seamless user experiences.</p>
+        <div class="contact-icon">
+          <a href="http://linkedin.com/in/ghufran-hijazi-44167a333" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://wa.me/0782224641" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="mailto:ghofranhijazi02@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/Ghofranhijazi" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <br>
+        <a href="myCV.pdf" download="myCV">
+          <button class="btn" type="button">Download My CV</button>
+        </a>
+      </div>
+    </div>
+    <div class="my-animation">
+      <section id="animation-section">
+        <dotlottie-player src="https://lottie.host/3b91ef2c-b174-4c20-8100-1df740ce1fe3/LfMLwNNyfN.lottie"
+          background="transparent" speed="1" style="width: 400px; " loop autoplay>
+        </dotlottie-player>
+      </section>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section2">
+    <div class="skills-flex1">
+      <div class="skills-box1 skill" data-skill="React">
+        <span class="devicon-react-original colored"></span>
+      </div>
+      <div class="skills-box2 skill" data-skill="JavaScript">
+        <span class="devicon-javascript-plain colored"></span>
+      </div>
+      <div class="skills-box3 skill" data-skill="Redux">
+        <span class="devicon-redux-original colored"></span>
+      </div>
+      <div class="skills-box4 skill" data-skill="MongoDB">
+        <span class="devicon-mongodb-plain colored"></span>
+      </div>
+    </div>
+    <div class="skills-flex2">
+      <div class="skills-box5 skill" data-skill="Node.js">
+        <span class="devicon-nodejs-plain colored"></span>
+      </div>
+      <div class="skills-box6 skill" data-skill="GitHub">
+        <i class="fab fa-github" style="color: #fff; font-size: 48px;"></i>
+      </div>
+      <div class="skills-box7 skill" data-skill="WordPress">
+        <i class="fab fa-wordpress" style="color: #21759b; font-size: 48px;"></i>
+      </div>
+      <div class="skills-box8 skill" data-skill="Next.js">
+        <span class="devicon-nextjs-original colored"></span>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="projects" class="section3">
+    <div class="projects-flex1">
+
+      <div class="projects-box1">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Ghofranhijazi/layout-task.git" target="_blank">My CoffeeHous Project</a>
+        <p>A creative web design project showcasing an elegant coffee house layout with user-friendly navigation and visually appealing aesthetics.</p>
+      </div>
+
+      <div class="projects-box2">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Ghofranhijazi/Wireframe-and-Mockup.git" target="_blank">Project 2</a>
+        <p>Coming soon..,a  placeholder project showcasing a simple, clean layout ready to be filled with content and features in the future.</p>
+      </div>
+
+      <div class="projects-box3">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Ghofranhijazi/task3-chaild-and-postion.git" target="_blank">Project 3</a>
+        <p>Coming soon..,a  placeholder project showcasing a simple, clean layout ready to be filled with content and features in the future.</p>
+      </div>
+
+      <div class="projects-box4">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/Ghofranhijazi/css-task.git" target="_blank">Project 4</a>
+        <p>Coming soon..,a placeholder project showcasing a simple, clean layout ready to be filled with content and features in the future.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact" class="section4">
+    <div class="contactus-animation">
+      <dotlottie-player src="https://lottie.host/5be389fa-7c97-4ec7-b156-0c578cd9066b/F6ztPgQm93.lottie"
+        background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+      </dotlottie-player>
+    </div>
+    <div class="contactus-box">
+      <form>
+        <h1 class="title">Your Message :</h1>
+        <div class="form-message">
+          <textarea id="formMessage" class="formMessage" rows="7" placeholder="Write . . ."></textarea>
+        </div>
+        <div class="form-submit">
+          <a href="mailto:ghofranhijazi02@gmail.com">Click to Send an Email</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Full-stack development</p>
+    <div class="footer-container">
+      <a href="http://linkedin.com/in/ghufran-hijazi-44167a333" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://wa.me/0782224641" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="mailto:ghofranhijazi02@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/Ghofranhijazi" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    // Function to toggle the display of the navigation links
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active'); // Add/remove 'active' class to show/hide menu
+    }
+  </script>
+
+</body>
