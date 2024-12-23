@@ -11,6 +11,8 @@ html {
 }
 :root {
     --primary-color: #ffffff;
+    --secondary-color: #111827;
+    
 }
 
 body {
@@ -36,12 +38,14 @@ body {
 .navbar {
     background-color: #111827;
     position: fixed;
-     width: 100%; 
+    width: 100%; 
     padding: 16px;
     color: #fff;
     height: 80px; 
     z-index: 1000;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+    
     
 }
 
@@ -189,7 +193,7 @@ a {
     background-color: #030712;
     padding: 128px 16px 16px; 
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 #skills {
@@ -262,7 +266,7 @@ a {
     background-color:#1e293b;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: 14px;
     opacity: 0;
     transform: translateY(10px);
@@ -448,6 +452,7 @@ a {
     padding: 10px;
     color: #fff;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
 
 }
 
@@ -478,7 +483,7 @@ a {
         display: none; 
         position: absolute;
         top: 60px;
-        right: 0;
+        /* right: 0; */
         background-color: #333;
         color: #fff;
         padding: 10px;
@@ -487,9 +492,14 @@ a {
         flex-direction: column;
         color: var(--primary-color);
     }
+    
+    .section1 ,.section2 ,.section3 ,.section4{
+        width: 768px;
+    }
 
     .nav-links.active {
         display: flex; 
+        margin-left:110px ;
     }
 
     .menu-toggle {
@@ -507,8 +517,7 @@ a {
     }
 
     .image {
-        margin: 0 auto 20px;
-        margin-top: 60px;
+        margin: 60px auto 20px;
     }
 
     .my-info {
@@ -591,12 +600,17 @@ a {
 
     .contactus-animation {
         margin-right: 10px;
-        margin-bottom: 5px;
-       
+        margin-bottom: 5px; 
     }
     .footer-container i{
         white-space: wrap;
         font-size: medium;
+       
+    }
+    .footer{
+     width: 768px;
+     height: 80px;
+     padding: 16px;
     }
     .footer p{
         font-size: medium;
@@ -618,4 +632,3 @@ a {
 .me{
     animation: slideInFromLeft 3s ease-out forwards;
 }
-
