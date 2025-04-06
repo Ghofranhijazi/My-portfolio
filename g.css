@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 1.5s ease-in-out forwards; 
+    text-align: center;
+    padding: 50px;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
